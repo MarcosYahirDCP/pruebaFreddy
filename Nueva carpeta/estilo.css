@@ -1,0 +1,102 @@
+body {
+    font-family: "Great Wishes Normal", "arial", "helvetical";
+    background: black;
+    margin-top: "30px";
+    margin-left: "50px";
+    margin-right: "50px";
+}
+
+
+/*ESTILO DEL MENU*/
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #737474;
+}
+
+
+/*PIE DE PAGINA*/
+
+footer {
+    position: relative;
+    margin-top: 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: px;
+    clear: both;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+
+/*Contenedores*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.global {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+div#general {
+    margin-top: auto;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    background-color: black;
+    display: block;
+    max-width: 100%;
+}
+
+div#ofertas {
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    border: 10px solid black;
+}
+
+div#body {
+    width: auto;
+    max-width: 680px;
+    height: auto;
+    background-color: black;
+    border: 10px solid black;
+}
+
+.lol {
+    width: auto;
+    max-width: 680px;
+    height: auto;
+    background-color: black;
+    border: 10px solid black;
+}
